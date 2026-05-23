@@ -1,0 +1,234 @@
+{
+  "theme": {
+    "archetype": "Archetype 5 (Premium Dark) with Archetype 1 (Warmth/Earthy) elements",
+    "mode": "dark",
+    "concept": "Warm Tech/Hacker Dark",
+    "description": "A high-end, ambitious aesthetic for early-stage builders. Pitch black backgrounds optimize for OLED mobile screens, while deep matte zinc surfaces create depth. Vibrant electric amber acts as the kinetic trigger, symbolizing energy, start-up hustle, and the 'flame' of a match.",
+    "colors": {
+      "background": {
+        "primary": "#000000",
+        "surface": "#121214",
+        "surface_elevated": "#18181B",
+        "glass": "rgba(18, 18, 20, 0.85)"
+      },
+      "brand": {
+        "primary": "#F59E0B",
+        "primary_muted": "rgba(245, 158, 11, 0.15)",
+        "accent": "#FF6B00"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#A1A1AA",
+        "tertiary": "#52525B",
+        "on_brand": "#000000"
+      },
+      "status": {
+        "success": "#10B981",
+        "danger": "#F43F5E",
+        "warning": "#F59E0B"
+      },
+      "border": {
+        "default": "#27272A",
+        "focus": "#F59E0B"
+      }
+    }
+  },
+  "typography": {
+    "anti_default_rule": true,
+    "primary_font": "Bricolage Grotesque",
+    "secondary_font": "Hanken Grotesk",
+    "scale": {
+      "h1": {
+        "family": "Bricolage Grotesque",
+        "size": "36px",
+        "weight": "800",
+        "letter_spacing": "-0.04em",
+        "line_height": "1.1"
+      },
+      "h2": {
+        "family": "Bricolage Grotesque",
+        "size": "28px",
+        "weight": "700",
+        "letter_spacing": "-0.02em",
+        "line_height": "1.2"
+      },
+      "h3": {
+        "family": "Bricolage Grotesque",
+        "size": "20px",
+        "weight": "600",
+        "letter_spacing": "-0.01em"
+      },
+      "body_lg": {
+        "family": "Hanken Grotesk",
+        "size": "16px",
+        "weight": "500",
+        "line_height": "1.5"
+      },
+      "body": {
+        "family": "Hanken Grotesk",
+        "size": "14px",
+        "weight": "400",
+        "line_height": "1.5"
+      },
+      "label": {
+        "family": "Hanken Grotesk",
+        "size": "12px",
+        "weight": "600",
+        "letter_spacing": "0.05em",
+        "text_transform": "uppercase"
+      }
+    }
+  },
+  "spacing_and_layout": {
+    "screen_padding": "24px",
+    "bento_gap": "16px",
+    "list_gap": "12px",
+    "generous_spacing": "Mobile-first approach. Avoid cramming. Utilize negative space aggressively. The bottom 100px of every scroll view must be empty to account for the floating tab bar."
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "#F59E0B",
+        "text_color": "#000000",
+        "border_radius": "9999px",
+        "height": "56px",
+        "font_family": "Bricolage Grotesque",
+        "font_weight": "700",
+        "font_size": "16px"
+      },
+      "secondary": {
+        "background": "#121214",
+        "text_color": "#FFFFFF",
+        "border_color": "#27272A",
+        "border_width": "1px",
+        "border_radius": "9999px",
+        "height": "56px"
+      }
+    },
+    "inputs": {
+      "text": {
+        "background": "#121214",
+        "border_color": "#27272A",
+        "border_radius": "16px",
+        "padding": "16px",
+        "text_color": "#FFFFFF",
+        "placeholder_color": "#52525B",
+        "focus_border": "#F59E0B"
+      }
+    },
+    "chips": {
+      "shape": "rounded-full",
+      "inactive": {
+        "background": "#121214",
+        "border": "#27272A",
+        "text": "#A1A1AA"
+      },
+      "active": {
+        "background": "rgba(245, 158, 11, 0.1)",
+        "border": "#F59E0B",
+        "text": "#F59E0B"
+      }
+    },
+    "cards": {
+      "match_card": {
+        "background": "#121214",
+        "border_radius": "24px",
+        "border": "1px solid #27272A",
+        "padding": "24px",
+        "shadow": "none",
+        "match_score_badge": {
+          "background": "rgba(245, 158, 11, 0.15)",
+          "text_color": "#F59E0B",
+          "border_radius": "9999px",
+          "padding": "6px 12px",
+          "font_family": "Bricolage Grotesque"
+        },
+        "reason_row": {
+          "background": "#18181B",
+          "border_radius": "12px",
+          "padding": "12px",
+          "margin_bottom": "8px"
+        }
+      }
+    },
+    "navigation": {
+      "bottom_tab_bar": {
+        "style": "floating",
+        "background": "rgba(18, 18, 20, 0.85)",
+        "border": "1px solid #27272A",
+        "border_radius": "9999px",
+        "height": "64px",
+        "margin": "0 24px 32px 24px",
+        "backdrop_blur": "20px",
+        "active_icon": "#F59E0B",
+        "inactive_icon": "#52525B",
+        "show_labels": false
+      }
+    },
+    "avatars": {
+      "style": "gradient",
+      "border_radius": "9999px",
+      "presets": {
+        "tech": ["#3B82F6", "#1D4ED8"],
+        "design": ["#A855F7", "#7E22CE"],
+        "growth": ["#10B981", "#047857"],
+        "product": ["#F59E0B", "#B45309"],
+        "default": ["#3F3F46", "#18181B"]
+      }
+    },
+    "ai_mentor": {
+      "chat_bubble_user": {
+        "background": "#27272A",
+        "text": "#FFFFFF",
+        "border_radius": "20px 20px 4px 20px"
+      },
+      "chat_bubble_ai": {
+        "background": "rgba(245, 158, 11, 0.1)",
+        "border": "1px solid rgba(245, 158, 11, 0.2)",
+        "text": "#FFFFFF",
+        "border_radius": "20px 20px 20px 4px"
+      }
+    }
+  },
+  "media": {
+    "splash_screen": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/e6d869e8-0952-42dc-8f01-0ab01ee1fc22/images/b6da33375f6c4615dccd153ae930f34bd9cbc618a703c7ed707b8938fa635eae.png",
+      "description": "Abstract OLED-friendly dark amber gradient background. To be used as App Splash Screen or Onboarding background."
+    },
+    "empty_states": {
+      "no_matches": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/e6d869e8-0952-42dc-8f01-0ab01ee1fc22/images/63fc5239ea69e72f1161c24e54939b34880d48dd8bbacd3d8937bc8dfd60db74.png",
+        "description": "Abstract radar illustration for when the matches list is empty."
+      },
+      "empty_inbox": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/e6d869e8-0952-42dc-8f01-0ab01ee1fc22/images/36d6b88dd50b8a2f6f4fc904ea953d39351526cf24cb0c347e7d7e630653b402.png",
+        "description": "Ethereal paper airplane illustration for an empty connection requests/chat inbox."
+      }
+    }
+  },
+  "accessibility_and_testing": {
+    "test_ids": {
+      "rule": "All interactive and key informational elements MUST include a 'data-testid' (or 'testID' in React Native) attribute. Use kebab-case and role-based naming.",
+      "examples": [
+        "login-submit-button",
+        "onboarding-skill-chip-[skill-name]",
+        "match-card-[user-id]",
+        "connect-request-button",
+        "bottom-tab-[tab-name]"
+      ]
+    },
+    "contrast": {
+      "rule": "Ensure minimum 4.5:1 contrast for normal text. All text placed over the amber brand color must be pure black (#000000) for APCA compliance."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use NativeWind or StyleSheet to translate these design tokens into React Native styles.",
+    "Bricolage Grotesque and Hanken Grotesk must be loaded via expo-font or @expo-google-fonts.",
+    "The UI is built strictly for dark mode (OLED-optimized Pitch Black #000000 background).",
+    "Replace generic cards with the 'bento_gap' inspired rich Match Cards, focusing heavily on typographical hierarchy using Bricolage for headers and score.",
+    "For the Match score, create a glowing effect around the Flame icon using the amber/15 background with amber text.",
+    "Ensure the bottom navigation tab is floating, translucent (using Expo BlurView), and sits above the main scroll content, without cutting off the last items in lists (add padding-bottom to ScrollViews).",
+    "Onboarding chip grids should wrap dynamically and clearly indicate active states with the electric amber border/text combination.",
+    "Do not use placeholder image URLs. Use the provided generated URLs for splash and empty states."
+  ]
+}
